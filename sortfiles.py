@@ -5,7 +5,7 @@ import shutil
 path = easygui.diropenbox()
 # check if pressed cancel
 if path == None: exit()
-# dictionary for filetypes
+# list for saved filetypes
 satisfied_filetypes = [ ]
 for file in os.listdir(path):
     # skip directories
