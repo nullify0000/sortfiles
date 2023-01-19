@@ -1,5 +1,10 @@
-# sortfiles
+# SortFiles
 Small program to quicky sort files into folders.
+
+## Prerequisites
+```
+py -3 -m pip install -U easygui
+```
 
 ```py
 import easygui
