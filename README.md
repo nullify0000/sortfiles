@@ -6,6 +6,7 @@ Small program to quicky sort files into folders.
 py -3 -m pip install -U easygui
 ```
 
+## Code
 ```py
 import easygui
 import os
